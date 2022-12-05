@@ -101,7 +101,108 @@ a{
             color: #fff;
             background: rgb(77, 77, 77);
         }
-.pie{
+    .mo{
+        padding: 20px 1px 20px 1px;
+        /* background: yellow; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+        .mo .re{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 0px 3vh 0px;
+        }
+            .re .con{
+                display: flex;
+                background: rgb(255, 153, 0);
+                border-radius: 10px;
+                padding: 10px;
+                width: 43vh;
+                height: 32vh;                         
+            }
+                .con .ge{
+                    padding: 0px 12px 5px 0px;
+                }  
+                .con .letra{
+                    padding: 0px 5px 0px 0px;
+                }
+                    .letra h3{
+                        text-align: center;
+                        padding: 0px 0px 10px 0px;
+                    }
+                    .letra .fecha{
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 3px 0px 10px 5px ;
+                    }
+                            .fecha .cha{
+                                font-size: x-small;
+                                padding: 0px 2px;
+                            }
+                    .letra .barra{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items:center;
+                        padding: 1px 0px 15px 0px;
+                    }
+                        .barra .Emi{
+                            font-size: small;
+                            margin: 5px;
+                            margin-right: 10px;
+                            padding: 5px 1.1vh 5px 1vh;
+                            background: red;
+                            border-radius: 5px;
+                        }
+                        .barra .Anime{
+                            font-size: small;
+                            margin: 5px;
+                            padding: 5px 1.1vh 5px 1vh;
+                            background: rgb(105, 105, 105);
+                            border-radius: 5px;
+                        }
+                    .letra .var{
+                        width: 180px;
+                        background: none;
+                        height: 110px;
+                    }
+                        .var{
+                            overflow: hidden;
+                            overflow-y: scroll;
+                        }
+                        .var::-webkit-scrollbar{
+                            width: 3.5px;
+                        }
+                        .var::-webkit-scrollbar-thumb{
+                            background: rgb(255, 153, 0);
+                            border-radius: 50px;
+                        }
+            .con:hover{
+                background: rgb(43, 43, 43);
+                color: rgb(228, 228, 228);
+                transition: .5s;
+            }
+    .next{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin: 5vh;
+        padding: 5vh 0vh 5vh 0vh;
+    }
+        .next .icon{
+            background: yellow;
+            color: #000;
+            padding: 30px;
+            border-radius: 2vh;
+        }
+            .icon i{
+                padding: 10px;
+            }
+            .icon:hover{
+                background: rgb(43, 43, 43);
+                color: #fff;
+                transition: 0.4s;
+            }
+                              
+.pie{                   
     background: rgb(43, 43, 43);
     height: 200px;
 }

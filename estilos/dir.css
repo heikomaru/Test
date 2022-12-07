@@ -23,6 +23,7 @@ a{
         }
             .logo img:hover{
                 filter: invert(0%) sepia(0%) saturate(12%) hue-rotate(206deg) brightness(104%) contrast(103%);
+                transition: 0.4s;
             }
     .header .nav{
         padding: 15px 0px 10px 45px;
@@ -38,6 +39,7 @@ a{
         }
             .nav a:hover{
                 background: rgb(36, 36, 36);
+                transition: 0.3s;
             }    
     .header .search{
         padding: 7px 10px 10px 15px;
@@ -209,6 +211,7 @@ a{
     .social{
         color: #fff;
         display: flex;
+        justify-content: space-between;
     }
         .social .media{
             display: flex;
@@ -230,23 +233,25 @@ a{
                 }
     .social .men{
         margin: 3px; 
-        padding: 70px 0px 0px 9.5%;
+        padding: 80px 0px 0px 16%;
     }
         .men a{
             color: #fff;
-            margin: 7px;
+            margin: 8px;
             background: rgb(77, 77, 77);
             padding: 15px 17px;
             border-radius: 10px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
             .men a:hover{
-                background: rgb(36, 36, 36);  
+                background: rgb(36, 36, 36);
+                transition: 0.3s;  
             }
     .text{
         margin: 2px;
+        
     }
         .all{
             color: rgb(255, 197, 36);
-            padding: 50px 10px 0px 0px;
+            padding: 50px 5px 0px 0px;
         }    
